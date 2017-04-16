@@ -19,4 +19,7 @@ class Bug < ActiveRecord::Base
   def url
     "https://bugzilla.redhat.com/show_bug.cgi?id=#{bz_id}"
   end
+  def test
+    "test"
+  end
 end
